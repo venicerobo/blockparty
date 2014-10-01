@@ -1,0 +1,28 @@
+// Initial state of the servos
+#define CLAW_STARTING_POSITION 70
+#define AUTO_ARM_STARTING_POSITION 0
+
+// Initial pause
+#define PAUSE_TIME 14000
+
+// IR seeking behavior
+#define IR_SENSOR_SENSITIVITY 100
+#define IR_SEEKING_SPEED 50
+#define IR_MIDPOINT 17000
+#define IR_BACKUP_SPEED 30
+#define IR_SHORT_BACKUP 850
+#define IR_LONG_BACKUP 1100
+#define AUTO_ARM_DUMP_POSITION 200
+#define AUTO_ARM_DUMP_DELAY 1500
+
+// Wall seeking phase
+#define WALL_SEEKING_SPEED 100
+
+// Dead reckoning to ramp phase
+#define HALF_SPEED 50
+#define FULL_SPEED 100
+#define DR_BACKUP_AMOUNT 400
+#define DR_TURN_AWAY_FROM_WALL_AMOUNT 1400
+#define DR_DRIVE_AWAY_FROM_WALL_AMOUNT 2200
+#define DR_TURN_TOWARDS_RAMP_AMOUNT 1250
+#define DR_DRIVE_ONTO_RAMP 2800
